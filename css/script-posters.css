@@ -1,0 +1,68 @@
+
+/* Scripts section: poster on the left, details on the right */
+#scriptGrid .script-card {
+    display: grid;
+    grid-template-columns: 145px minmax(0, 1fr);
+    align-items: center;
+    gap: 22px;
+    height: auto;
+    min-height: 0;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+/* Small vertical poster */
+#scriptGrid .script-poster-addon {
+    display: block;
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    height: auto;
+    max-height: 230px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: #070b12;
+}
+
+/* Keep screenplay details in the right column */
+#scriptGrid .script-card > div {
+    min-width: 0;
+}
+
+#scriptGrid .script-card h3 {
+    margin-top: 12px;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+}
+
+#scriptGrid .script-card p {
+    line-height: 1.6;
+}
+
+#scriptGrid .script-open {
+    grid-column: 2;
+    align-self: end;
+    margin-top: 12px;
+}
+
+/* Tablet and mobile */
+@media (max-width: 650px) {
+    #scriptGrid .script-card {
+        grid-template-columns: 105px minmax(0, 1fr);
+        gap: 14px;
+        padding: 13px;
+    }
+
+    #scriptGrid .script-poster-addon {
+        max-height: 180px;
+    }
+
+    #scriptGrid .script-card h3 {
+        font-size: 17px;
+    }
+
+    #scriptGrid .script-card p {
+        font-size: 13px;
+    }
+}
