@@ -11,7 +11,7 @@ scripts: [
         type: "Completed screenplay",
         description: "The screenplay behind my first short film.",
         image: "assets/cards for scripts/paranormal-connections.png",
-        url: "https://drive.google.com/file/d/1dn6nPMNbJkxTHu6dhySOfoleYxsoVMTg/view?usp=sharing"
+        url: "https://drive.google.com/file/d/1l8fHw4EVv_3LT_RFD39O861AyHDMz9Wu/view?usp=drive_link"
     },
     {
         n: "02",
@@ -19,8 +19,8 @@ scripts: [
         type: "Completed screenplay",
         description: "A story about routine, responsibility and choosing a dream.",
         image: "assets/cards for scripts/loop-break-free.png",
-        url: "https://drive.google.com/file/d/1aUaez2OrJ2gaE5vAlPvlyZJ77gPvwR0U/view?usp=sharing"
-    }
+        url: "https://drive.google.com/file/d/1inO8v5Mib4K5HQ9Y5hBqLnk4Dq0t4ukC/view?usp=sharing"
+    },
 ],
 
  homeStills:['assets/stills/home/still-10.png','assets/stills/home/still-11.png','assets/stills/home/still-12.png'],
